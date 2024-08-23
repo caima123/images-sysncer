@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/bladex/alpine-java:8_server-jre_cn_unlimited docker://registry.cn-hangzhou.aliyuncs.com/bladex/alpine-java:8_server-jre_cn_unlimited
+         skopeo copy docker://docker.io/nginx:last docker://registry.cn-hangzhou.aliyuncs.com/nginx:last
