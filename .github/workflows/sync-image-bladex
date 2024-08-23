@@ -1,4 +1,4 @@
-name: Sync Image to Aliyun  Example
+name: Sync Image to Aliyun  Example bladex
 
 on:
   push:
@@ -25,6 +25,6 @@ jobs:
         password: shuifa@#1
         logout: false
 
-    - name: Use Skopeo Tools Sync Image to Docker Hub
+    - name: Use Skopeo Tools Sync Image to Docker Hub bladex
       run: |
          skopeo copy docker://docker.io/bladex/alpine-java:8_server-jre_cn_unlimited docker://registry.cn-hangzhou.aliyuncs.com/jdypublic/bladex/alpine-java:8_server-jre_cn_unlimited
