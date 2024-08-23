@@ -1,4 +1,4 @@
-name: Sync Image to Aliyun  Example
+name: Sync Image to Aliyun  Example1
 
 on:
   push:
@@ -25,6 +25,6 @@ jobs:
         password: shuifa@#1
         logout: false
 
-    - name: Use Skopeo Tools Sync Image to Docker Hub
+    - name: Use Skopeo Tools Sync Image to Docker Hub1
       run: |
          skopeo copy docker://docker.io/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/jdypublic/nginx:latest
